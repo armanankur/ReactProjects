@@ -100,7 +100,7 @@ const Todo = () => {
             </button>
             <button
               onClick={() => handleDel(todo.id)}
-              className="p-2 bg-red-500 rounded-lg h-14 w-20 shadow-lg text-white "
+              className="p-2 bg-red-500 rounded-lg h-14 w-20 shadow-lg text-white hover:bg-red-600"
             >
               DEL
             </button>
